@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Our Memories 💖</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Cute Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body class="memories-page">
+
+    <audio id="bg-music" loop>
+    <source src="music.mp3" type="audio/mp3">
+</audio>
+<div class="sparkles"></div>
+
+<div class="mystery-strip">
+    <div class="strip-track">
+
+        <!-- ORIGINAL -->
+        <span>💖 our moments...</span>
+        <span>😳 that first smile...</span>
+        <span>🎬 movie days...</span>
+        <span>🧥 that jacket moment...</span>
+        <span>😏 yeayy...</span>
+        <span>💌 something special inside...</span>
+
+        <!-- DUPLICATE (IMPORTANT) -->
+        <span>💖 our moments...</span>
+        <span>😳 that first smile...</span>
+        <span>🎬 movie days...</span>
+        <span>🧥 that jacket moment...</span>
+        <span>😏 yeayy...</span>
+        <span>💌 something special inside...</span>
+
+    </div>
+</div>
+<div class="warning-section">
+
+    <h2>⚠️ Warning</h2>
+
+    <p>
+        This might get a little emotional... <br>
+        Take a deep breath before you open what’s inside 💖
+    </p>
+
+<button onclick="playMusic(); revealGifts()">I'm ready 💖</button>
+</div>
+
+<h1 class="title">Our Memories 📸</h1>
+
+<!-- 📦 GIFT BOX SECTION -->
+<div class="gift-container">
+
+    <!-- BOX 1 -->
+    <div class="gift-box" onclick="openBox(this)">
+        <div class="lid"></div>
+        <div class="ribbon left-ribbon"></div>
+        <div class="ribbon right-ribbon"></div>
+        <img src="images/p1.jpg" class="photo">
+    </div>
+
+    <!-- BOX 2 -->
+    <div class="gift-box" onclick="openBox(this)">
+        <div class="lid"></div>
+        <div class="ribbon left-ribbon"></div>
+        <div class="ribbon right-ribbon"></div>
+        <img src="images/p2.jpg" class="photo">
+    </div>
+
+    <!-- BOX 3 -->
+    <div class="gift-box" onclick="openBox(this)">
+        <div class="lid"></div>
+        <div class="ribbon left-ribbon"></div>
+        <div class="ribbon right-ribbon"></div>
+        <img src="images/p3.jpg" class="photo">
+    </div>
+
+    <!-- BOX 4 -->
+    <div class="gift-box" onclick="openBox(this)">
+        <div class="lid"></div>
+        <div class="ribbon left-ribbon"></div>
+        <div class="ribbon right-ribbon"></div>
+        <img src="images/p4.jpg" class="photo">
+    </div>
+
+    <!-- BOX 5 -->
+    <div class="gift-box" onclick="openBox(this)">
+        <div class="lid"></div>
+        <div class="ribbon left-ribbon"></div>
+        <div class="ribbon right-ribbon"></div>
+        <img src="images/p5.jpg" class="photo">
+    </div>
+
+    <!-- BOX 6 -->
+    <div class="gift-box" onclick="openBox(this)">
+        <div class="lid"></div>
+        <div class="ribbon left-ribbon"></div>
+        <div class="ribbon right-ribbon"></div>
+        <img src="images/p6.jpg" class="photo">
+    </div>
+
+    <!-- BOX 7 -->
+    <div class="gift-box" onclick="openBox(this)">
+        <div class="lid"></div>
+        <div class="ribbon left-ribbon"></div>
+        <div class="ribbon right-ribbon"></div>
+        <img src="images/p7.jpg" class="photo">
+    </div>
+
+    <!-- BOX 8 -->
+    <div class="gift-box" onclick="openBox(this)">
+        <div class="lid"></div>
+        <div class="ribbon left-ribbon"></div>
+        <div class="ribbon right-ribbon"></div>
+        <img src="images/p8.jpg" class="photo">
+    </div>
+
+    <!-- BOX 9 -->
+    <div class="gift-box" onclick="openBox(this)">
+        <div class="lid"></div>
+        <div class="ribbon left-ribbon"></div>
+        <div class="ribbon right-ribbon"></div>
+        <img src="images/p9.jpg" class="photo">
+    </div>
+
+    <!-- BOX 10 -->
+    <div class="gift-box" onclick="openBox(this)">
+        <div class="lid"></div>
+        <div class="ribbon left-ribbon"></div>
+        <div class="ribbon right-ribbon"></div>
+        <img src="images/p10.jpg" class="photo">
+    </div>
+
+    <!-- BOX 11 -->
+    <div class="gift-box" onclick="openBox(this)">
+        <div class="lid"></div>
+        <div class="ribbon left-ribbon"></div>
+        <div class="ribbon right-ribbon"></div>
+        <img src="images/p11.jpg" class="photo">
+    </div>
+
+    <!-- BOX 12 -->
+     <div class="gift-box" onclick="openBox(this)">
+        <div class="lid"></div>
+        <div class="ribbon left-ribbon"></div>
+        <div class="ribbon right-ribbon"></div>
+        <img src="images/p12.jpg" class="photo">
+    </div>
+</div>
+
+<div style="margin-top: 50px;">
+    <button onclick="goToFinal()">One last thing 💌</button>
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
